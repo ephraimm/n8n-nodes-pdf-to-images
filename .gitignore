@@ -1,25 +1,8 @@
-# Node.js modules
-node_modules/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# Dependency directories
-jspm_packages/
-
-# IDEs and editors
-.vscode/
-.idea/
+node_modules
 .DS_Store
-
-# OS files
-Thumbs.db
-ehthumbs.db
-
-# npm lock file
-package-lock.json
-
-# Output files
-*.node
+.tmp
+tmp
+dist
+npm-debug.log*
+yarn.lock
+.vscode/launch.json
