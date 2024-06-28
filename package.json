@@ -1,0 +1,28 @@
+{
+  "name": "n8n-nodes-pdf-to-images",
+  "version": "0.1.0",
+  "description": "N8N custom node that convert PDF pages to images",
+  "main": "CustomPdfToImages.node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sokigo-AB/pdf-to-images.git"
+  },
+  "keywords": [
+    "n8n",
+    "pdf",
+    "image"
+  ],
+  "author": "Nikola Vujasinovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sokigo-AB/pdf-to-images/issues"
+  },
+  "homepage": "https://github.com/Sokigo-AB/pdf-to-images#readme",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdf-poppler": "^0.2.1"
+  }
+}
