@@ -20,7 +20,7 @@ async function convertPdfToImages(pdfPath: string, outputFolder: string): Promis
   for (let i = 0; i < pageCount; i++) {
     const pdfPopplerCmd = '/usr/bin/pdftocairo';
     const pdfPopplerArgs = [
-      '-png',
+      '-jpeg',
       '-f',
       (i + 1).toString(),
       '-l',
